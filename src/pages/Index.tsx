@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Shield, ScanSearch, BarChart3, QrCode, Building2, Zap } from "lucide-react";
+import { ScanSearch, BarChart3, QrCode, Building2, Zap, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 
