@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import logo from "@/assets/meditrust-logo.jpg";
+import logo from "@/assets/meditrust-icon.png";
 
 const Navbar = () => {
   const location = useLocation();
