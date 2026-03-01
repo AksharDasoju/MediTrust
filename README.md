@@ -1,73 +1,147 @@
-# Welcome to your Lovable project
+# 🏥 MediTrust – AI Medical Bill Fraud Detection
 
-## Project info
+> Detect fake medical bills in seconds and improve trust in healthcare claims
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📌 Overview
+MediTrust is a web-based application built as part of a hackathon project. It detects fraudulent or manipulated medical bills used in insurance claims.
 
-There are several ways of editing your application.
+The system analyses uploaded bills using OCR and a combination of AI and rule-based checks. It generates a fraud score along with clear reasons to help users identify suspicious bills.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🚨 Problem Statement
+Medical insurance fraud is increasing, especially through fake or edited bills.
 
-Changes made via Lovable will be committed automatically to this repo.
+Current verification methods:
+- ⏳ Time-consuming
+- ⚠️ Prone to human error
+- 📉 Not scalable
 
-**Use your preferred IDE**
+This leads to financial loss and delays in claim processing.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💡 Proposed Solution
+MediTrust provides an automated way to verify medical bills.
 
-Follow these steps:
+- 📄 Extracts data using OCR
+- 🤖 Analyses using AI and rules
+- ⚠️ Detects anomalies
+- 📊 Generates fraud score with explanation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ How It Works
+1. 📤 Upload a medical bill
+2. 🔍 Extract data using OCR
+3. 🤖 Analyse using AI + rules
+4. ⚠️ Detect anomalies
+5. 📊 Generate fraud score and reasons
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## ✨ Key Features
+- 📊 Fraud score (0–100%)
+- 🧠 Explainable results
+- 🔁 Duplicate detection
+- 🏥 Hospital validation (mock)
+- ⚡ Fast analysis
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎯 Target Users
+- 🏢 Insurance companies
+- 📑 TPAs
+- 🧑‍💼 Corporate HR teams
+- 🏥 Government schemes
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📊 Comparison
 
-## What technologies are used for this project?
+| Feature        | Manual Verification | MediTrust |
+|---------------|--------------------|----------|
+| Speed         | Slow ⏳            | Fast ⚡   |
+| Accuracy      | Error-prone ⚠️      | Reliable ✅ |
+| Explanation   | Not available ❌    | Available 🧠 |
+| Scalability   | Limited 📉         | High 📈   |
+| Automation    | No ❌              | Yes 🤖   |
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📈 Impact
+- 🚫 Reduces fraud
+- ⚡ Faster processing
+- 💰 Saves money
+- 🤝 Improves trust
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 💰 Revenue Model
+- 💼 Subscription model
+- 📄 Pay-per-claim
+- 🏢 Enterprise/API integration
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📈 Market Opportunity
+- Growing health insurance sector
+- Increase in digital claims
+- Rising fraud cases
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## ⚖️ Competitive Advantage
+- AI + rule-based system
+- Explainable output
+- Focus on healthcare fraud
+- Simple interface
+
+---
+
+## 🚀 Feasibility & Scalability
+- Easy integration
+- Works for scanned & digital bills
+- Cloud-based scaling
+
+---
+
+## 🛠️ Tech Stack
+- Frontend: Lovable / React
+- Backend: Node.js / Python
+- OCR: Tesseract / API
+- Database: Firebase / MongoDB
+
+---
+
+## 🌐 Live Demo
+👉 https://triotech-meditrust.lovable.app/
+
+---
+
+## 🚀 Future Enhancements
+- Real hospital database integration
+- Advanced AI models
+- Real-time processing
+- Mobile app
+
+---
+
+## 👥 Team
+**Team TrioTech**
+
+- Akshar Dasoju
+- Dhavan Jain
+- Lakshya Jain
+
+---
+
+## 📌 Note
+This is a prototype developed for a hackathon. Some features use simulated data.
+
+---
+
+## ⭐ Support
+If you found this project useful, consider giving it a ⭐ on GitHub!
